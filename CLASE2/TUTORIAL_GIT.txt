@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=jSJ8xhKtfP4&list=PLTd5ehIj0goMCnj6V5NdzSIHBgrIXckGU
+
+Este Link tiene una serie de videos muy copados para empezar a manejar GIT. Es mucho mas extenso de lo que vimos
+en clase y tiene conceptos mas avanzados pero vale la pena.

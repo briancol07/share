@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <title>Prueba de Bootstrap</title> 
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head> 
+<body> 
+<!--
+Debemos utilizar la clase "row" para indicar el comienzo de una fila. Dentro de la fila dispondremos tantos div como columnas tenga dicha fila. 
+Para indicar cada columna debemos utilizar la siguiente sintaxis para cada columna:
+  col-lg-* (el nro total debe dar 12)
+
+Cuando utilizamos la clase "col-md-*" la fila colapsará cuando el ancho del navegador se reduzca a menos de 992px.
+
+Cuando utilizamos la clase "col-sm-*" la fila colapsará cuando el ancho del navegador se reduzca a menos de 768px.
+
+Por último hay que decir que cuando utilizamos las clases "col-xs-*" nunca colapsarán las columnas.
+
+
+col-xs-*               e(x)tra (s)mall
+col-sm-*               (sm)all
+col-md-*               (m)e(d)ium
+col-lg-*               (l)ar(g)e
+-->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-4"  style="background-color:#aaa">
+        <h1>Columna 1</h1> 
+        <p>Esto es una prueba de bootstrap.</p>
+      </div>
+      <div class="col-lg-4"  style="background-color:#bbb">
+        <h1>Columna 2</h1> 
+        <p>Esto es una prueba de bootstrap.</p>
+      </div>
+      <div class="col-lg-4"  style="background-color:#ccc">
+        <h1>Columna 3</h1> 
+        <p>Esto es una prueba de bootstrap.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-md-4"  style="background-color:#aaa">
+        <h1>Columna 1</h1> 
+        <p>Esto es una prueba de bootstrap.</p>
+      </div>
+      <div class="col-md-4"  style="background-color:#bbb">
+        <h1>Columna 2</h1> 
+        <p>Esto es una prueba de bootstrap.</p>
+      </div>
+      <div class="col-md-4"  style="background-color:#ccc">
+        <h1>Columna 3</h1> 
+        <p>Esto es una prueba de bootstrap.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-sm-4"  style="background-color:#aaa">
+        <h1>Columna 1</h1> 
+        <p>Esto es una prueba de bootstrap.</p>
+      </div>
+      <div class="col-sm-4"  style="background-color:#bbb">
+        <h1>Columna 2</h1> 
+        <p>Esto es una prueba de bootstrap.</p>
+      </div>
+      <div class="col-sm-4"  style="background-color:#ccc">
+        <h1>Columna 3</h1> 
+        <p>Esto es una prueba de bootstrap.</p>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+      <div class="col-xs-4"  style="background-color:#aaa">
+        <h1>Columna 1</h1> 
+        <p>Esto es una prueba de bootstrap.</p>
+      </div>
+      <div class="col-xs-4"  style="background-color:#bbb">
+        <h1>Columna 2</h1> 
+        <p>Esto es una prueba de bootstrap.</p>
+      </div>
+      <div class="col-xs-4"  style="background-color:#ccc">
+        <h1>Columna 3</h1> 
+        <p>Esto es una prueba de bootstrap.</p>
+      </div>
+    </div>
+
+  </div> 
+
+</body> 
+</html> 

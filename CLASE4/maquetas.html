@@ -1,0 +1,110 @@
+!<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+    <!-- 
+
+        <table>
+
+            <tr> table row 
+                <tr>
+                    <td> Nombre </td>
+                    <td>Apellido </td>
+                    <td>Correo </td>
+                </tr>
+
+                <tr>
+                    <td>Franco </td>
+                    <td>Di Leo </td>
+                    <td> blabla@gmail.com </td>
+                </tr>
+        </table>
+
+     -->
+     <!-- definir estilos -> clases  -->
+     <div class="container">
+        <div class="row">
+        <div class="col-12">    
+        <table class="table table-dark text-center" >
+
+        <thead>
+            <tr>
+                <td>Nombre</td>
+                <td>Apellido</td>
+                <td>Correo</td>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>franco</td>
+                <td>Di Leo</td>
+                <td>dileo.francoj@gmail.com</td>
+            </tr>
+        </tbody>
+
+     </table>
+     <!-- cierro col -->
+    </div> 
+
+    </div> <!-- cierr row -->
+
+    <div class="row">
+
+        <div class="col-6">
+            <!-- dentro de cada columna
+                pueden definir cualquier elemento html
+            -->
+            <!-- form-group agrupa 1 input -->
+            <!-- para que la informacion se envie al servidor es importante definir la etique form -->
+            <form method="" action="">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" placeholder="nombre" required>
+                <label for="apellido">Apellido</label>
+                <input type="text" class="form-control" placeholder="apellido">
+            </div>
+            <!-- button, submit, reset -->
+            <button type="button" class="btn btn-primary">Enviar info :)</button>
+            <button type="button" class="btn btn-success">Ok</button>
+            <button type="button" class="btn btn-warning">Guarda!</button><br>
+            <button type="button" class="btn btn-danger btn-block">Peligroo!</button>
+            <!-- PRIMARY, DARK, WARNING, DANGER,SUCCESS, LINK, LIGTH -->
+            </form>
+
+
+        </div>
+
+        <div class="col-6">
+            <form method="" action="">
+            <!-- :: textarea ::  -->
+            <!-- form-control -->
+            <!-- from-control -->
+            <label for="comentarios">Dejá tu comentario</label>
+            <!-- no definimos la cantida de columnas porque por defecto -->
+            <textarea class="form-control" name="comentarios" rows="6"></textarea>
+            <button type="button" class="btn btn-dark btn-lg">Enviar comentarios</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+</body>
+</html>

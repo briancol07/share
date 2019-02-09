@@ -1,0 +1,76 @@
+<!-- BOOTSTRAP -->
+<html>
+
+<head>
+    <title>Ejemplo bootstrap</title>
+    <meta charset="utf-8">
+    <!-- title, metacharset, keywords -->
+    <!-- estilos  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- dist/css/bootstrap.css -->
+    <!-- bootstrap.min.css carga del sitio mas rapida -->
+    <!-- linkear bootstrap de forma interna -->
+    <!-- <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css"> -->
+
+</head>
+<body>
+    <!-- bootstrap:-
+        framework: CSS 
+        Los estilos son editables 
+        Bootstrap : 4 MANTENIDA POR TWITTER 
+        ventajas: se mantiene de forma constante
+                hay una gran comunidad de desarrollo
+                mucha info en la web
+                sencillo de entender
+        desventaja : adaptacion y aprendizaje de clases ya definidas
+        
+    
+    --->
+    
+        <div class="container">
+            <div class="row" style="background:tomato;">
+                <h1>Welcome to bootstrap!</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-4" style="background:olive">
+
+                    <h2>Columnita 1 bootstrap</h2>
+                    <p> Esta es mi primer columna de ancho 4</p>
+                </div>
+                <div class="col-xl-4" style="background:#3CB486">
+                    <h2>Segunda columnita copada</h2>
+                    <p> Este es su parrafo</p>
+                </div>
+                <div class="col-xl-4">
+                    <h2>Tercer columnita</h2>
+                    <p> Lo de 100pre</p>
+                </div>
+            </div>
+            <!-- creo otra fila sin xl en la clase -->
+            <div class="row">
+
+                    <div class="col-lg-6">
+                        <h3>Col large</h3>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>Col large</h3>
+                    </div>
+
+            </div>
+            <!-- xl: menor a 1200 px aprox
+                lg : menor a 992 colapsa
+                md : menor a 720 y pico colapsa
+                xs : menor a 540 px
+                col-6 col-6 : nunca colapsa
+            -->
+            </div>
+            
+
+        </div>
+
+
+
+</body>
+
+</html>

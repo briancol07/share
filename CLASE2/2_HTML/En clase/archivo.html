@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Archivo al servidor</title>
+</head>
+<body>
+<!-- Cuando queremos enviar contenido multimedia al servidor el metodo de envio de informacion e sa traves de POST : SIEMPREEEEEEEEEEEE -->
+
+<!-- Por defecto HTML solo envia informacion en forma de texto/caracteres el enctype es una propiedad que modifica los tipos de datos que se van a enviar al servidor -->
+<!-- application/x-www-form-urlencoded  -->
+	<form action="archivo.php" method="POST" 
+	enctype="multipart/form-data">
+
+		<p>Carga tu archivo <input type="file" name="archivoCopado">
+			<input type="submit" value="Enviar">
+			<!-- seleccionar un color de la paleta -->
+		<p> Seleciona tu color favorito: <input type="color" name="color">
+			<!-- la informacion del input type="color" se envia al server en formato hexadecimal -->
+
+	</form>
+
+<hr>
+	<form method="post" action="comentarios.php">
+
+		<p>Nombre:	<input type="text" placeholder="Acá tenes que escribir tu nombre" name="nombre" size="10" maxlength="10"></p>
+		<p>Celular: <input type="text" placeholder="1556531" min="7" max="12"></p>
+		<!-- maxlength determina cual es la cantidad maxima de caracteres que puedne escribirse en un input/textarea -->
+		<textarea name="comentarios" rows="50" cols="100"></textarea>
+		<!-- textarea es un control que permite crear un campo de texto amplio y el tamaño del mismo se define a traves de las filas y columnas. Tiene etiqueta de cierre al contrario de input -->
+		<!-- ejemplo@mail.com -->
+
+	</form>
+</body>
+</html>

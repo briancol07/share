@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Bootstrap</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<style type="text/css">
+.pintame {
+
+	background: tomato;
+}
+
+.coral {
+	background:coral;
+}
+
+.olive {
+	background:olive;
+	height:695px;
+	/*position: */
+	
+}
+
+</style>
+</head>
+<body>
+
+<!-- formularios:
+
+
+	destino : action
+	method = post/get
+
+	input: name
+
+	boot. Clases
+ -->
+
+<div class="container">
+<!-- form role="form" etiqueta semantica incorporada por html5 que cumple funcion de class-->
+<form role="form">
+
+	<!-- estos divs separan los inputs que tengamos en nuestro sitio -->
+	<div class="form-group">
+		<p> Ingresa tu usuario </p>
+		<input type="text" name="nombrePersona" placeholder="Raúl" required class="form-control">
+		<!-- form-control es una clase para que nuestros inputs tengan los estilos que diseño papa boostrap -->
+	</div>
+	
+	<div class="form-group">
+	<p> Ingresa tu password </p>
+		<input type="password" name="passwordPersona" placeholder="Contraseña" class="form-control">
+	
+	</div>
+
+	<div class="form-group">
+		<!-- el textarea es un contenedor grande de multiples lineas que tiene etiqueta de cierre -->
+		<textarea class="form-control" required placeholder="Ingresá un comentario" rows="10" name="comentarios"></textarea>
+
+	</div>
+
+<!-- envio de informacion dentro de form si no no nos va a funcionar :(-->
+
+
+<button type="submit" class="btn btn-default">Enviar </button>
+<button type="submit" class="btn btn-primary"> Enviar </button>
+<button type="submit" class="btn btn-info"> Soy informativo </button>
+
+<button type="submit" class="btn btn-danger"> Uuuuu doy miedo </button>
+<button type="submit" class="btn btn-warning"> Toca de acá </button>
+<button type="submit" class="btn btn-linked"> Simulo ser un enlace pero soy un boton. </button>
+
+
+</form>
+
+</div>
+
+
+</body>
+</html>

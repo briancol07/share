@@ -1,0 +1,21 @@
+.header{
+	background: #008080;
+}
+.logo{
+	margin: 0;
+	padding: 0;
+}
+.header2{
+	background: #20B2AA;
+	height: 30px;
+}
+.slider{
+	background: #483D8B;
+	height: 240px;
+}
+.footer{
+	background: #696969;
+}
+.separador{
+	height: 40px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Prueba de formularios</title>
+</head>
+<body>
+
+
+<p>Mediante un formulario un usuario puede intercambiar o crear informacion con el servidor de destino</p>
+
+<p>La web envia/ intercambia informacion con los servidores a traves de peticiones (get o post)
+	</p>
+
+<p> el metodo get envia o recibe informacion a traves de la URL </p>
+<p> Y POST lo hace de forma interna (no visible para los usuarios)</p>
+
+<h1> Crear usuario </h1>
+<!-- 
+
+usuario, contraseña, mail, nombre, apellido, etc
+ -->
+
+<!-- formularios: deben tener como parametros el metodo en envio de datos al servidor post/get y la pagina que recibe esta informacion (action) -->
+
+<h1> Registro de personas </h1>
+<form method="POST" action="registro.php">
+
+<!-- input -->
+<p>Nombre: <input type="text" name="nombre"></p>
+<!-- Verifica si un campo esta o no vacio: required es atributo que se le carga un valor booleano : true o false. Por defecto si no le ponemos nada (ningun valor) lo toma como true -->
+<p>Apellido: <input type="text" name="apellido"></p>
+<p>Usuario*: <input type="text" name="usuario" required></p>
+<!-- "Validacion" que filtra si lo ingresado en mi input tiene @ y .com -->
+<p>Mail*: <input type="email" name="mail" required></p>
+<!-- Input type="password" me genera un campo de caracteres con puntos para que no se vea que se esta tecleando -->
+<p>Contraseña*: <input type="password" name="password" required></p>
+<!-- Boton: enviar es un input siempre tiene que estar dentro de <form> ACA ESTOY YO SOY UN BOTON DE ENVIAR </form> -->
+<!-- <input type="button" value="Soy un boton inutil"> -->
+<!-- tipos de boton: type="button" solo da forma de boton
+type="submit" enviar la informacion contenida en las cajas al server (action="pagina.php")
+ -->
+<button type="submit">Enviar datos</button>
+
+
+</form>
+
+<!-- El orden de los factores ... -->
+<form action="registro.php" method="post">
+
+<!-- se puede
+	se puede pero no es lo conveniente porque mezclas info
+	se sobreescriben los variables
+	no pasa one -> V
+
+ -->
+ <input type="text" name="loginUsuario">
+
+</form>
+
+</body>
+</html>

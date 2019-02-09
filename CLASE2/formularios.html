@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios</title>
+    </head>
+
+    <body>
+
+        <!-- ¿Que es un formulario? -->
+        <!-- interactuar con los usuarios o con los navegantes del sitio -->
+        <!-- intercambiar informacion  -->
+        <!-- la info de ese formulario
+        vamos a almacenarla en nuestra base de datos
+        Login, Registrarse  , comentarios, reseña, etc
+        -->
+        <!--  img src
+            a href
+        -->
+        <form method="#" action="">
+
+            <!-- 
+                METHOD: 
+                GET: INTERCAMBIA INFO POR URL
+                
+                , POST: INTECAMBIA LA INFO DE FORMA
+                 INTERNA -->
+            <!-- ACTION: QUE ARCHIVO VA A
+            PROCESAR ESA INFORMACION -->
+                <!-- todos los botones, inputs
+                textarea, etc deben estar dentro
+            de las etiquetas <form></form> -->
+            <!-- caracteres: alfanumericos -->
+           <p> <input disabled placeholder="Ingresá tu usuario" type="text"  name="usuario"></p>
+           <p> <input type="text" placeholder="Pepe" name="nombre"></p>
+            <input type="password" name="contraseña">
+            <input type="email" name="correo">
+            <input type="number" min="18" max="99">
+            <input type="color" name="colorcito">
+            <!-- javascript -->
+            <!-- VALIDAR LOS DATOS QUE INGRESA -->
+            <!-- frontend | backend -->
+            <button type="button">Ingresar</button>
+            <button type="reset">Borrar</button>
+            <button type="submit">Enviar</button>
+
+            </form>
+            <form method="#" action="">
+                <input type="text" name="blabla">
+                <button type="reset">Borrar</button>
+            </form>
+
+            <form method="" action="">
+                
+                <!-- Comentarios -> textarea -->
+                <!-- rows, cols  -->
+                <!-- quiero aumentar el alto:
+                    rows="10"
+                    quiero aumentar el ancho:
+                    cols="50"    
+                -->
+                <!-- id: identificador unicoç
+                    sirve para modificar los estilos
+                    sirve para trabajar DOM javascript
+                -->
+                <h3>Comentarios</h3>
+                <textarea cols="100" id="" rows="10" name="comentarios"></textarea>
+
+            </form>
+
+            <form method="" action="">
+
+                <!-- checkbox -->
+                <h3> Sexo</h3>
+                <input type="checkbox" name="m">Masculino
+                <input type="checkbox" name="f">Femenino
+                <input type="checkbox" name="pni" disabled> Prefiero no indicarlo
+                <!-- disabled es una propiedad que inhabilita el elemento -->
+                
+                <!-- elementos de seleccion 
+                menu desplegable
+                -->
+                <select name="pais">
+
+                    <option value="1">Argentina</option>
+                    <option value="2">Brasil</option>
+
+                </select>
+            
+            </form>
+
+
+
+
+
+    </body>
+</html>
+

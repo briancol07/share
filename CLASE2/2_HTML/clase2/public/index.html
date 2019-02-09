@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+<h1> Titulo principal </h1>
+<p><a href="blabla.html" target=new()> Link</a></p>
+
+<p><a href="titulos.html">Titulos de nuestra página </a></p>
+<!-- La etiqueta a (hipervinculo) puede tener atributos: href="enlaceNuevo" y otro atributo es el target : que me permite abrir un link en una pestaña nueva -->
+
+<!-- imagenes -->
+<!-- src: atributo que le debemos especificar la ruta de nuestra imagen -->
+<!-- <img src="typ.jpg" alt="Imagen timon y pumba"/> -->
+
+<!-- <img src="img/typ.jpg"/> -->
+<!-- ocupa espacio en nuestro servidor -->
+<!-- <br>
+<img src="https://serieslan.com/tb/typ.jpg" />
+
+<img src="../imagenes/typ.jpg" />
+ -->
+<!-- FORMULARIOS
+	nombres,comentarios,fechas, valoraciones,buscar
+
+	comunicacion entre el usuario que visita el sitio y nuestro servidor
+
+ -->
+
+<!-- los atributos nos dicen a donde enviar la informacion y como enviarla -->
+<!--  action: es el archivo o ruta que se encargará de procesar la informacion enviada-->
+<!-- method: forma que se enviaran los datos -->
+ <form action="" method="">
+	<p><h3>Nombre: </h3>
+		<!-- placeholder es un atributo de la etiqueta input que sirve de ejemplo al usuario para escribir un dato en ese -->
+	<input type="text" placeholder="ejemplo..." name="nombre" required>
+	<!-- camel case -->
+	<!--  -->
+	<p><h3>Apellido </h3>
+		<input type="text" required></p>
+
+	<!-- identificar con el nombre que ustedes quieran cual va a ser el nombre con el que va a llegar al servidor -->
+	<h3>Contraseña</h3>
+	<input type="password" required name="password">
+	<h3>Correo</h3>
+	<input type="email" name="correo" required maxlength="40">
+	<!-- email es un valor asociado al atributo type que contrla que lo ingresado tenga caracteristicas de correo -->
+
+	<br><br>
+	<textarea rows="5" cols="10" placeholder="Texto largo" required></textarea>
+	<br>
+
+	<input type="date" name="fechaReserva" required>
+
+
+	<!-- el boton es lo que envia toda la informacion al servidor -->
+	<br>
+	<input type="file" name="fotaza">
+	<h3> Elegi el color de tu subnick</h3>
+	<input type="color" name="colorElegido">
+	<button type="submit">Enviar</button>
+	<!-- type="button" es un elemento clickeable del sitio que sirve para generar pestañas, generar alertas, cerrar pestañas -->
+	<!-- type="submit" sirve para enviar la informacion al servidor -->
+	
+
+ </form>
+
+
+</body>
+</html>

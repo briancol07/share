@@ -1,0 +1,96 @@
+RESUMEN COSAS "IMPORTANTES"
+
+FALTAS MAXIMAS : 4 o entregar justificativo laboral/medico/etc
+TIEMPO DE RECREO: 15-20 '
+PUEDEN TRAER MATE..
+Mail de contacto: linkmutimedial@gmail.com
+Mail mio: dileo.francoj@gmail.com | frandileo@frba.utn.edu.ar
+Fecha aproximada de finalizacion: 13/03 
+CERTIFICADOS : MEDIADOS DE ABRIL 
+TUTORIAS: 4 TUTORIAS -> proyecto, consultas de temas
+
+
+TEMARIO CURSO:
+
+1. Introduccion | Conceptos | intro html
+2. HTML 
+    Etiquetas
+    Introduccion a formularios
+    intro a GIT
+3. Formularios 
+4. intro a bootstrap 
+5. bootstrap (maquetado del sitio)
+6. componentes copadas
+7. CSS (clases, etiquetas)
+8. CSS (flexbox, animaciones)
+9. CSS + bootstrap
+10. MySQL
+11. MySQL
+12. PHP (backend)
+13. PHP
+14. PHP
+15. PHP
+16. PHP
+17. JAVASCRIPT
+18. JAVASCRIPT
+19. JQUERY
+20. LIBRERIAS
+21. AJAX
+22. ANGULAR 6
+23. ANGULAR 6
+24. ANGULAR 6
+25. CONSULTAS
+ENTREGA ONLINE 
+
+TP: PAGINA WEB  
+FRONT END (MAQUETADO DISEÑO)
+BACKEND (FUNCIONAL + BASES DE DATOS)
+
+----------------------------------------
+
+ANGULAR 6
+NODEJS
+-----------
+ANGULAR 6 
+PHP 
+
+MySQL
+SERVER
+PYTHON 
+
+RASBERRY PI
+
+
+wordpress
+
+    HTML5
+    PHP
+    css
+
+VISUAL STUDIO CODE (JAVASCRIPT)
+SUBLIME TEXT 3
+BRACKETS (JAVASCRIPT)
+
+
+---------------------------------------------------------------
+IP: ipconfig : numero que identifica a un dispositivo
+conectado a la red 
+
+DNS --> DOMAIN NAME SYSTEM 
+PUERTO: 80 
+www.paginaquesea.com.ar:80
+
+PAGINAS "SEGURAS" : 443 SSL 
+LAS CONEXIONES NO PUEDEN LEERSE (ESTAN CIFRADAS)
+spoiler: wireshark
+
+80,443, 21 (ftp file transfer protocol)
+ip
+dns ELCURSODEWEBESLAONDA.COM.AR 
+Puerto: via de comunicacion entre estructura cliente-servidor
+
+Hosting: (hostinger: gratis,
+            goDaddy (hosting) $600 plan base
+            AWS / Heroku (Amazon Web Service)
+            )
+Para registrar el dominio: nic.ar
