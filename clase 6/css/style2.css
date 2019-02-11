@@ -1,0 +1,22 @@
+.contenedor{
+
+width: 80%;
+height: 200px;
+background: powderblue;
+
+}
+
+.contenido{
+
+    background: black;
+    height: 100px;
+    width: 240px;
+    /* primero top rigth botom left */
+    padding: 50px  20px 40px 10px;
+
+    /* padding : 10 20 solo modificaria arriba y abajo */
+}
+p{ color: azure;
+    font-weight: bold;
+
+    }

@@ -1,0 +1,111 @@
+
+/* 
+color: color de texto
+background: color de fondo
+text-align : left,rigth,center,justify
+text-decoration: none,underline, overline, line-througth,
+width,heigth
+font-weigth : bold, 100,900
+*/
+
+/* TIPS CSS
+
+Los estilos aplicados a elementos se declaran dentro del head y su sintaxis es: 
+
+etiquetaElemento {
+    /* estilos */
+
+    
+} */
+/* las clases no pueden empezar con ., numeros, _, -, {, etc */
+.parrafo {
+    /* por defecto -> 100% */
+    width:80%;
+    
+}
+.parrafo p{
+    /* solo afectaria a los parrafos dentro de mi clase!  */
+    background:brown;
+    color:white;
+    text-align:center;
+    height: 100px;
+}
+
+
+.alinearDerecha {
+    width:80%;
+    color:white;
+    background:brown;
+    text-align: right;
+}
+
+.justificado {
+    background: brown; 
+    color:white;
+    text-align: justify;
+    height: 200px;
+}
+h2,h3,h4,h5 {
+   color: coral;
+   text-decoration: underline;
+}
+h2 {
+    font-size:32px;
+}
+h3 {
+    font-size:28px;
+}
+/* text-decoration: none;
+    text-decoration: underline;
+    text-decoration:overline;
+    ~texto de wp~
+    text-decoration: line-through;
+*/
+
+
+
+
+.resaltado {
+
+    background:tomato; 
+    color:white;
+    font-weight: 900; 
+    text-decoration:line-through;
+    width:600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* consola: ctrl shift i ->console problemas al cargar elementos */
+}
+
+.enlinea {
+    display:inline;
+}
+
+.block {
+    display:block;
+}
+.ejemplo p em {
+    background:coral;
+}
+
+.fa-user {
+    color:green !important;
+    font-size:32px;
+}
+
+
+.fas.fa-users{
+    color:tomato;
+}
+/* esto modifica el color de todos los iconos !!! */
+.fas {
+    color:brown;
+}
+
+.contenedor1 {
+    width:80%;
+    background:black;
+}
+.contenedor2 {
+    width:60%;
+    background:tomato;
+}

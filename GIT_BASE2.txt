@@ -1,0 +1,52 @@
+Cd Desktop/PWM_VERANO (CARPETA DONDE HICIMOS EL CLONE)
+git pull
+
+git init --> para empezar un repo siempre que se quiera
+arrancar un proyecto nuevo ::D:D:D:D:D
+
+
+master -> rama de trabajo por defecto
+se pueden crear varias ramas para trabajar en distintas partes
+del proyecto
+
+merge -> unir todas las ramas y crear un solo proyecto
+
+git status
+git add .
+git commit -m
+git log --oneline
+
+git checkout -- nombreArchivo.extension
+
+si llegan a entrear al editor de la consola....
+PARA SALIR: 
+ESC
+se habilita una pantalla de escritura abajo de todo
+:wq! write, quite ! forzar
+
+
+POSIBILIDAD 1 : 
+HICIMOS UNA MODIFICACION X
+    git checkout -- archivoModificado.extension
+
+POSIBILIDAD 2
+Agregamos el archivo que no queriamos agregar al storage
+git add .
+    git reset HEAD nombreArchivoFregado.extension 
+
+
+POSIBILIDAD 3
+Agregamos un archivo que no queriamos agregar
+Hicimos un commit de ese archivo 
+    los 7 digitos del commit al que queremos volver
+    se pueden chequear en git log --oneline
+
+    git reset --hard 7digitoscommit
+    git reset --soft 7digitoscommit
+
+    hard -> no vuelve a cambios anteriores, no deja files
+    dentro del storage
+
+    soft --> vuelve a modificaciones previas dejando todo el historial
+    dentro del storage 
+

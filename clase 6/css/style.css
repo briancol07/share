@@ -1,0 +1,58 @@
+html{
+    background: cadetblue;
+    font-family: 'Dancing Script', cursive;
+
+}
+/* esto lo define para varios estilos  */
+h1,h2,h4,h3,h5{
+    background: brown;
+    color: azure;
+    font-size: 42px;
+    text-align: center;
+
+}
+
+h2{font-size:30px; }
+
+
+/* boostrap
+    class container 
+ se puede ir haciendo sandwich en tre las cosas 
+.ejempl p em {
+
+
+
+}
+
+*/
+
+.pepe{
+    text-align: end;
+    background: deepskyblue;
+    width: 600px;
+    display: inline;
+    
+}
+
+.textoEspecifico p {
+    background: indigo;
+    color: limegreen;
+    text-decoration-color: limegreen;
+
+}
+.fas fa-tilde{
+    color: gold;
+    font-size: 33px;
+    text-align: center;
+
+}
+.parrafo{
+    color:white;
+    text-align: right;
+    background: brown;
+    height:500px;
+    width:50%;
+
+}
+.
+/*  */

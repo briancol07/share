@@ -1,0 +1,112 @@
+/*
+PROPIEDADES RELACIONADAS AL TEXTO
+Posicion: 
+text-align: center;
+            right;
+            left;
+            justify; 
+
+
+decoration:
+text-decoration: subrayado
+                none;
+                underline;
+
+transform: mayusculas: uppercase
+            minusculas: lowercase
+            Primera mayuscula y desp. minuscula: capitalize
+                        
+*/
+
+h1,h2,h3 {
+    
+    font-family:Arial;
+    
+}
+
+h1 {
+    font-size:50px;
+    color: skyblue;
+    background:black;
+    text-align: center;
+    text-decoration:underline; /*SUBRAYADO DE LA PALABRA*/
+    text-transform: uppercase;
+    
+}
+
+
+h2 {
+    background: papayawhip;
+    font-size:40px;   
+    width:600px;
+    height: 50px;
+    text-align:right;
+    text-decoration:none; /*DEJA EL TEXTO COMO ESTÁ*/
+    text-transform: lowercase;
+}
+
+
+h3 {
+    background:tomato;
+    width:75%;
+    height: 100px;
+    text-decoration: overline;
+    
+}
+
+
+p {
+    text-decoration:underline;
+    color: green;
+    font-size:18px;
+    font-weight: bold;
+    font-style:oblique;
+    background: darkgrey;
+    text-transform: capitalize;
+}
+
+div p {
+    
+  color:black;
+    background:blue;
+
+    
+}
+
+/* CLASES: creamos los estilos dentro de nuestra clase y se lo podemos aplicar a CUALQUIER ELEMENTO
+sintaxis:
+.nombreClase {
+ propiedad: valor
+color: red;
+}
+
+*/
+.resaltar {
+   color: antiquewhite;
+   background:black;
+    
+}
+
+.bordes {
+    height:40px;
+    width:50%;
+    background: tomato;
+    /*BORDES
+
+    border: tamaño, estilo, color;
+                    solid: continuo;
+                    dashed: linea punteada;
+    */
+    margin-left: 50px;
+    border:1px solid purple;
+    padding-top: 25px;
+    padding-left: 50px;
+    /*padding: 12px se mueve 12 pixeles respecto de todos los extremos
+        de tu caja. 12 px desde arriba, abajo, izquierda y derecha
+
+    padding-top: se mueve solo de lap arte superior de la caja;
+    padding-right:;
+    padding-left:;
+    padding-bottom: ;
+    */
+}

@@ -1,0 +1,28 @@
+.contenedor {
+    width:450px;
+    height: 200px;
+    background:aquamarine;
+    padding-top:20px;
+}
+
+.contenido {
+
+    background:black;
+    height:100px;
+    width:240px;
+    /* padding: 20 30 10 20 */
+    /* padding : 10px 20px */
+    /* padding : 50px */
+    /* padding-top: 20px;
+    padding-left:20px;
+    padding-right: 30px; */
+    padding: 20px 30px 10px 20px;   
+}
+
+p {
+    color:white;
+    font-weight: bold;
+}
+/* a la hora de maquetar creen cajas y les den colores "raros" */
+
+
