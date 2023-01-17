@@ -1,0 +1,35 @@
+git init
+git status
+git add . (agrega todo)
+git add archivo.extension (agrega archivo)
+git commit -m " mensaje "
+git diff -> veo la diferencia respecto al archivo anterior
+
+Para ver las nuevas clases:
+se posicionan con git en la carpeta donde hiciern
+el clone 
+
+para configurar remotos:
+    creo el repo online
+    
+    en la consola:
+    git remote add agustinBienPiola URLDeLRepo
+    git remote -v me da el nombre y url del remoto
+    git push -u agustinBienPiola master
+
+git pull url
+
+git clone url
+
+
+dileo.francoj@gmail.com
+frandileo@frba.utn.edu.ar (no le doy bola)
+
+
+PARA DESHACER CAMBIOS QUE NO AGREGAMOS AL REPO NI COMMITEAMOS
+
+git checkout -- nombreDelArchivo.extension
+
+https://github.com/dileofrancoj/PWM_VERANO
+
+
