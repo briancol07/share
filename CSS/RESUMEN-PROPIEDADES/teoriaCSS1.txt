@@ -1,0 +1,50 @@
+Contenidos primer clase CSS
+
+definicion de estilos dentro de etiqueta style a nivel de elementos html
+	font-size
+	color
+	backgroundd
+	font-family: Arial, Helvetica, monospace, etc
+	font-weight: bold (100,600)
+	text-decoration: underline, none
+
+	text-align: center, right, left, justify
+	
+	width: 
+	heigth
+	padding
+	margin --> 0 auto; centra la caja en el contenedor padre
+	
+	border: 1px solid black
+		1px dashed 
+
+margin auto: 
+
+box-sizing: los desarrolladores se dieron cuenta que la gente promedio sacando a los nerds
+odian las matematicas y sacaron una propiedad que se llama box-sizing.
+box-sizing: border-box el padding y border del elemento no incrementan su nacho
+
+-webkit-box-sizing: border-box
+-moz-box-sizing: border-box
+box-sizing: border-box
+
+
+display y visibility
+
+display es es una propiedad importante para controlar estructuras. Cada elemento
+tiene un valor de display por defecto dependiendo de que elemento sea. El valor por
+defecto para la mayoria de los elementos es block (bloque) o inline. Un elemento que es
+block se le dice block-level.
+
+Block: el div es elemento block estandar. Un elemento block empieza en una nueva linea y se estira
+hasta la derecha e izquierda tan lejos como pueda ( a menos que se especifique lo contrario)
+Otros elementos comunes son p, form, header, footer, etc
+
+inline: el span es ele elemento estandar. Un elemento inline puede contener
+algo de texto sin interrumpir el flujo de parrafo. El elemento a es el inline mas comun
+
+
+none: otro valor comun de display es none. 
+Visibility: hidden
+
+cambiar div a display:inline para ver el efecto

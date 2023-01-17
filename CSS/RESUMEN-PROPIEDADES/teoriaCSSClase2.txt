@@ -1,0 +1,66 @@
+1. Ejercicio de cajas clase 6
+
+2 CAJAS separadas con un margin
+3. box-sizing: border-box
+4. 	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	 -box-sizing: border-box
+
+5.visibility: hidden
+6. display: none
+7. margin: 0 auto
+8. IMAGEN DE FONDO:
+	BACKGROUND : URL('FOTO'); POR DEFECTO SE REPITE EN X E Y
+	background-repeat : repeat-x;
+	background-repeat: repeat-y
+	background-repeat: repeat-x repeat-y
+	background-position:400px 10px;dispone la imagen en 400 10. Para que esto tenga
+sentido hay que empezar el background-repeat en no-repeat
+
+
+flotacion
+La propiedad float especifica si un elemento debe salir del flujo normal y aparecer
+ a la izquierda o a la derecha de su contenedor,
+ donde los elementos de texto y los en línea aparecerán a su alrededor.
+
+        .contenedor4 {
+            background:palegreen;
+            width:60%;
+            height: 400px;
+            display: inline;
+            float:left;
+        }
+        .contenedor5{
+            background:purple;
+            width:40%;
+            height: 400px;
+            display:inline;
+            float:right;
+        }
+
+
+img {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+p{
+    float:rigth;
+}
+
+.contenedor{
+    margin:0 auto;
+    width:60%;
+}
+
+Pseudoclases: clases especiales que se refieren al estado de un elemento html
+Links
+a:link {estilos que queremos darle}
+a:visited {estilos a darle}
+a:active {estilos aquí}
+a:hover {estilos}
+
+Para eliminar un subrayado :
+	a:link {text-decoration:none}
+	a:visited{text-decoration:none}
+
