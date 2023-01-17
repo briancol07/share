@@ -1,0 +1,15 @@
+PHP
+Apache -> Levantaba un servidor web
+¿?
+
+Frontend -> visual 
+Backend -> funcionalidades a nuestro codigo (login, registro, carrito de compras, vincular con el clima, hacer un firma digital, escanear un QR, etc et etc)
+
+
+	 WEB SERVER
+Frontend --> backend 
+		 <--
+
+Interpreta el backend, lo procesa y hace que aparezca en el navegador
+
+Apache -> un servidor web (apache va a procesar todo el codigo PHP que nosotros escribamos :D::D:D::D:D:D:D::D:D:D::D:D:D:D:DD)

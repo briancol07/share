@@ -1,0 +1,88 @@
+$dia = 24; //Se declara una variable de tipo integer.
+$sueldo = 758.43; //Se declara una variable de tipo double.
+$nombre = "juan"; //Se declara una variable de tipo string.
+$exite = true; //Se declara una variable boolean.
+
+if (Condición) 
+{
+  Instrucción a1;
+  Instrucción a2;
+}
+else
+{
+  Instrucción b1;
+  Instrucción b2;
+}
+
+for($f=1;$f<=100;$f++)
+{
+  echo $f;
+  echo "<br>";
+}
+?>
+
+$valor=rand(1,100);
+$inicio=1;
+while($inicio<=$valor)
+{
+  echo $inicio;
+  echo "<br>";
+  $inicio++;
+}
+?>
+
+
+  <input type="radio" name="radio1" value="suma">sumar
+  <br>
+  <input type="radio" name="radio1" value="resta">restar
+
+  if ($_REQUEST['radio1']=="suma")
+  {
+    $suma=$_REQUEST['valor1'] + $_REQUEST['valor2'];
+    echo "La suma es:".$suma;
+  }
+  else
+  {
+    if ($_REQUEST['radio1']=="resta")
+    {
+      $resta=$_REQUEST['valor1'] - $_REQUEST['valor2'];
+      echo "La resta es:".$resta;
+    }
+  }
+
+Un Array es una colección de valores. Los array pueden ser unidimensionales (vectores), bidimensionales (matrices) y multidimensionales (más de dos dimensiones)
+
+Los arrays se utilizan ampliamente en el lenguaje PHP.
+
+Se utiliza el delimitador [] para acceder a los diferentes elementos del vector.
+
+Se lo puede crear al vuelo, sin tener que declararlo:
+
+$dias[0]=31;
+$dias[1]=28;
+
+$dias[]=31;
+$dias[]=28;
+$dias[]=31;
+
+echo count($dias);	//3
+
+Si queremos imprimir todos los elementos en la página podemos hacer:
+
+<?php 
+$nombres[]="juan"; 
+$nombres[]="pedro"; 
+$nombres[]="ana"; 
+for($f=0;$f<count($nombres);$f++) 
+{ 
+  echo $nombres[$f]; 
+  echo "<br>"; 
+} 
+?>
+
+$edades=array("menores","jovenes","adultos");
+
+$registro['dni']="20456322";
+$registro['nombre']="Martinez Pablo";
+$registro['direccion']="Colon 134";
+echo $registro['nombre'];

@@ -1,0 +1,12 @@
+1. tenemos que definir un archivo html encargado de
+pedirle la informacion al usuario
+2. tenemos que definir  " " un php encargado de procesar la informacion del usuario
+<form method="post" action="pagina.php">
+		name de los inputs
+		<button type="submit">
+</form>
+
+<?php
+		 $ nombre = $_POST['nombre'] 
+
+?>

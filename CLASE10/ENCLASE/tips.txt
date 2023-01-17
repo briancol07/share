@@ -1,0 +1,77 @@
+CLASE 2.
+
+1. agregar campos a la tabla (alter table usuarios add campo propiedades after/before)
+2. alter table usuarios modify campo nuevos valores;
+3. alter table usuarios drop campo;
+
+
+4. VALORES POR DEFECTO:
+
+Si al insertar registros no se especifica un valor para un campo, se inserta su valor por defecto implícito
+ según el tipo de dato del campo. Por ejemplo:
+
+5. BETWEEN
+ select * from libros
+  where autor in('Borges','Paenza');
+
+6. LIKE
+ select * from libros
+  where autor like "%Borges%";
+
+6Bcomienzan con A:
+
+	WHERE titulo like "A%";
+
+7. DISTINCT : Los datos duplicados son obviados.
+
+select distinct autor from libros;
+
+FUNCIONES DE AGRUPAMIENTO: 
+select max(precio) from libros;
+select min(precio) from libros;
+selct avg(precio) from libros; 
+select 
+
+8. clave primaria
+9 Relaciones entre tablas y columnas
+10. join
+11. valores tipo date y default current_timestamp
+12. Encriptacion de cadenas
+
+Los tipos "blob" o "text" son bloques de datos. Tienen una longitud de 65535 caracteres.
+
+Un "blob" (Binary Large Object) puede almacenar un volumen variable de datos.
+ La diferencia entre "blob" y "text" es que "text" diferencia mayúsculas y minúsculas 
+y "blob" no; esto es porque "text" almacena cadenas de 
+caracteres no binarias (caracteres), en cambio "blob" contiene cadenas de 
+caracteres binarias (de bytes).
+
+No permiten valores "default".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nmap escaner de puertos

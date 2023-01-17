@@ -1,0 +1,57 @@
+.contenedorImagen {
+    /* como ponemos una imagen de fondo de un contenedor 
+    1. Local -> toda la fiaca de las rutas
+    2. Web
+
+    */
+    /* gif, jpeg,jpg ,png*/
+    /* click derecho en la imagen, propiedades */
+    background: url('fondo.png');
+    height:800px;
+    background-repeat: repeat-x;
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y repeat-x; */
+    /* background-repeat: repeat-x; */
+    /* background-position: 300px 50px; */
+}
+
+.contenidoImagen {
+    font-size:60px;
+    padding:60px;
+}
+/* etiqueta a pseudo clase link */
+/* por defecto si nunca visite ese enlace */
+/* 
+
+link,visited,hover,active 
+
+*/
+
+a:link {
+    color:black;
+    font-weight: bold;
+    text-decoration: none; 
+}
+/* cuando ya hice click en el enlace y volvi al sitio */
+a:visited {
+    color:green;
+    font-weight: bold;
+    font-size:32px;
+    background:black;
+    text-decoration:none;
+}
+a:hover {
+    background:olive;
+    color:white;
+    border:1px solid tomato;
+
+}
+a:active {
+  color:pink;  
+}
+
+
+
+
+

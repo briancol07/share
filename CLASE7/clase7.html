@@ -1,0 +1,83 @@
+!<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css" type="text/css">
+<style>
+.cajita1 {
+    margin: 0 auto;
+    /* ancho del borde en px, %, em */
+    /* solid, dashed , NPI */
+    /* color : tomato, #000000 */
+    /* border : 2px solid black */
+    background : coral;
+    width:500px;
+    padding:30px;
+    border : 2px solid black;
+    height:100px;
+    /* box-sizing: border-box. Define el ancho del elemento como el width especificado y calcula todo en base al padding y al border */
+    box-sizing: border-box;
+    
+}
+
+.cajita3 {
+    margin:100px auto;
+    width:500px;
+    padding:80px;
+    height: 200px;
+    box-sizing: border-box;
+    background:olive;
+    /* 
+    -webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	-box-sizing: border-box
+
+    -webkit-transition: 0.4s
+    
+    
+     */
+}
+
+.cajita2{
+    /* margin: 0 auto : centra respecto a X y deja un espaciado de 0px respecto a los elementos externos :D */
+    /* margin: 50px auto : centra respecto a X y deja 50 px de espaciado entre la caja y las cajas externas */
+    margin: 50px auto;
+    background: black;
+    border: 4px solid coral;
+    padding:60px;
+    height: 100px;
+    width:500px;
+    box-sizing: border-box;
+    color:white;
+}
+
+</style>
+</head>
+<body>
+    <!-- AGRUPACION/ BLOQUE -->
+    <!-- <div class="cajita1">Quiero ser igual que la cajita de abajo</div>
+    <div class="cajita2">Quiero ser igual que la cajita de arriba</div>
+    <div class="cajita3"></div> -->
+    <div class="contenedorImagen">
+        <div class="contenidoImagen">Hola!</div>
+    </div>
+
+    <div class="links">
+
+        <a href="https://www.google.com.ar" target=new()>Google</a>
+        <!--  Las pseudoclases son clases que definen el comportamiento ante determinadas situaciones de elmeentos html-->
+        <!-- active, link, hover, visited -->
+        <!-- link,visited,hover,active -->
+        <!-- link: en condiciones normales los estilos que tiene el enlace -->
+        <!-- link: color:black, no este subrayado, font-size:20px  condiciones normales-->
+        <!-- visited : color:brown, font-size:20px font-weight: bold : cuando aprete el enlace y volvi a la pgina -->
+        <!-- hover : color: tomato; background:black; font-weigth: bold cuando paso el mouse por arriba del elemento-->
+        <!-- active : cuando doy click sobre el elemento 
+            cuando estoy haciendo click sobre el elemento
+        -->
+    </div>
+</body>
+</html>

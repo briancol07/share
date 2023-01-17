@@ -1,0 +1,219 @@
+/* expresion regular -> all
+le damos a todos los elementos del navegador un padding 0
+y un margin 0 
+
+*/
+
+* {
+    margin:0;
+    padding: 0; 
+
+}
+
+body {
+    font-size:50px;
+}
+/* flexbox es una herramienta responsive */
+
+.container {
+    /* este contenedor esta apto para usar flexbox */
+    /* display : flex este siempre en el contenedor principal */
+
+    display: flex;
+    flex-direction: row;
+
+    /* justify-content: flex-start, flex-end, center,space-around,space-between */
+    justify-content: space-between;
+    align-items:stretch;
+    /* flex-start : por defecto y deja los contenedorcitos  al inicio del contenedor*/
+    /* display: flex , flex-direction: row */
+    /* flex-direction:column; dispone los elementos como columna */
+
+    /* flex-direction: nos permite manipular el orden de os elementos
+    /* flex-direction: row,row-reverse,column,column-reverse */
+    /* se refiere al posicionamiento a lo largo del eje X
+    INICIO, AL FINAL, CENTRADO EN LA CAJA
+    */
+    /* align-items : posicionamiento vertical  */
+    background: orange; 
+    height: 600px;
+
+
+}
+.contendorcito {
+    background: black;
+    border:2px dashed olive; 
+    /* dashed: linea punteada :D */
+    /* height: auto -> se adapta al alto del contenedor principal */
+    
+    width:20%;
+    color:white;
+    font-size:26px;
+ 
+}
+/* el id tiene prioridad : cuantas clases podemos tener en un html a lot
+ids ... 1 
+
+identificador UNICO que tiene mas peso a la hora de definir que estilos tendrá el elemento
+
+*/
+
+.container2 {
+    display: flex;
+    background:tomato; 
+    height: auto;
+    /* flex-direction: row; viene por defecto !  */
+    /* flex-wrap: nowrap; viene por defecto */
+    flex-wrap: wrap;
+
+}
+/* star admin bootstrap 4 */
+
+.contenedorcito2 {
+    width:40%;
+    background: black;
+    font-size:30px;
+    color:white;
+    border : 2px solid orange; 
+}
+
+
+
+
+
+
+#pruebaid {
+    color: coral;
+    background:magenta;
+    font-size:32px;
+}
+.prueba1    {
+    color:white;
+    background:black !important;
+    font-size:32px;
+}
+
+.contenedor3 {
+    display:flex;
+    flex-direction:row;
+    background:olive;
+    height: 500px;
+    align-items:stretch; 
+    /* ocupaba todo el alto del contenedor */
+}
+/* contenido */
+.contenido3 {
+    background:tomato;
+    border:1px solid black; 
+    flex-basis: 40%;
+    order:2;
+}
+
+.contenido4 {
+    /* propiedades del contenido:
+    flex-basis -> ancho del contenido
+    order : orden en que se presenta el contenido en el contenedor
+
+    */
+    background:tomato;
+    border:1px solid black; 
+    flex-basis: 60%;   
+    order:1;
+}
+
+
+/* Pueden descargarse un template y empezar a modifarlo
+
+    desde el HTML
+    desde el CSS (tipografia, color,bordes, posiciones, etc)
+    imagenes (aca tendrian que subir sus imagenes)
+
+    Pueden hacerlo de 0 --> mucho mas tiempo
+
+
+    PAGUE POR UN TEMPLATE (5 ussd) 
+        BOOTRSTRAP :((((((((((
+        se mantiene facil
+        
+        entiendan CSS 
+        workana.com
+*/
+
+
+hr {
+    margin-top:30px;
+}
+
+/* UNIDADES DE MEDIDAS
+PX, PORCENTAJE, cm
+*/
+
+
+/* contenedor : width, heigth: auto porcentaje
+    letras, paddings, margin y esas propiedades
+
+    em,rem
+    
+
+    font-size : 32px; 
+    PC : 1024*768 
+
+    celular 600px; 
+
+*/
+
+.contenedorLetra {
+    
+    background: #fafafa;
+}
+
+p {
+    font-size: 2em;
+    color:black;
+}
+
+
+    /* rem 
+        hace referencia al tamaño de fuente definido en el body ! 
+
+        CONCLUSION DE LAS UNIDADES DE MEDIDA
+        WIDTH, HEIGHT: %
+        FONT-SIZE, PADDING,MARGIN: EM/REM
+        border: px 
+    */
+
+/* media query : 
+    si vengo a cursar entonces voy a odiar al profe
+    si no vengo a cursar ENTONCES me quedo durmiendo feliz
+    
+    si el dispositivo mide mas de 500 px y menos de 700
+    no le muestro la imagen que esta en mi columna
+
+    si el dispositivo mide mas de 800 px
+    el color de fondo de mi container va a ser tomato 
+
+
+    */
+.contenedorResponsivo {
+    background:tomato;
+}
+
+@media (min-width: 576px) {
+    .contenedorResponsivo {
+        background:olive;
+        color: white;
+
+    }
+
+}
+
+@media (min-width:800px) {
+    .contenedorResponsivo {
+        background:black;
+        color:white;
+        font-size:6rem;
+    }
+}
+
+
+

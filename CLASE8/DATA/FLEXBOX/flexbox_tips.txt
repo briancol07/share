@@ -1,0 +1,75 @@
+¿Qué es flexbox?
+Si queremos conocer su especificación técnica podemos hacerla en el sitio del World Wide Web Consortium (W3C),
+ de todos modos no es un buen lugar para aprender de su funcionamiento.
+
+Gran cantidad de diseñadores están empleando la funcionalidad de Flexbox y las nuevas versiones de framework de CSS 
+como Bootstrap 4 también lo incorporan para su funcionamiento.
+
+Flexbox nos facilita la maquetación del sitio web y todos sus componentes. También facilita
+ la adaptación de la página a distintos tamaños de pantalla.
+
+
+Siempre el display: flex se le asigna al contenedor.
+
+La primera propiedad que podemos configurar cuando implementamos una caja flexible se llama flex-direction. Por defecto esta propiedad se inicializa con el valor "row".
+
+Los valores que podemos asignarle a la propiedad "flex-direction" son:
+
+
+row
+
+column
+
+row-reverse
+
+column-reverse
+
+
+
+La segunda propiedad que podemos cambiar a un contenedor de cajas flexibles se llama justify-content.
+
+La propiedad justify-content controla como se distribuyen los items a lo largo del contenedor.
+
+Por defecto la propiedad justify-content almacena el valor "flex-start".
+
+Los valores que podemos asignarle a la propiedad "justify-content" son:
+
+
+flex-start
+
+flex-end
+
+center
+
+space-between
+
+space-around
+
+La tercer propiedad que afecta al contenedor se llama "align-items". Es similar a la propiedad que vimos anteriormente "justify-content", pero la alineación es con respecto al eje transversal.
+
+Los valores que podemos asignarle a la propiedad "align-items" son:
+
+
+stretch
+
+flex-start
+
+flex-end
+
+center
+
+baseline
+
+La propiedad "flex-wrap" puede almacenar alguno de estos tres valores:
+
+
+nowrap
+
+wrap
+
+wrap-reverse
+
+
+El valor por defecto que almacena la propiedad "flex-wrap" es "nowrap". Esto hace que todos los items se ubiquen siempre en el eje principal y en una misma línea independientemente a la cantidad de items que dispongamos.
+
+Podemos hacer que el contenedor muestre items en varias líneas cuando no entran en una fila disponiendo en la propiedad "flex-wrap" el valor "wrap".
