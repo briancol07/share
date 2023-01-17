@@ -1,0 +1,9 @@
+CREATE TABLE `libros` (
+  `nro_orden` int(100) unsigned NOT NULL auto_increment,
+  `titulo` varchar(30) NOT NULL default '',
+  `autor` varchar(20) NOT NULL default '',
+  `editorial` varchar(20) NOT NULL default '',
+  `edicion` varchar(10) NOT NULL default '',
+  `precio` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`nro_orden`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;

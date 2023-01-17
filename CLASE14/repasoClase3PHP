@@ -1,0 +1,37 @@
+Nos queremos conectar a una DB para hacer consultas: 
+
+Es incluirlo en un archivo funciones.php o conexion.php
+
+$conexion = mysqli_connect("localhost","root","","gestion")
+	or die(mysqli_error($conexion))
+
+require_once('conexion.php');
+
+// $conexion lo usabamos en todas las querys :D
+
+Hacer cualquier consulta en nuestra tabla.
+// insert, select, update, delete
+// 1. $conexion, $query
+
+
+
+
+$consulta = "INSERT INTO usuarios (usuario,password) values ('$usuario','$password')";
+
+2. mysqli_query($conexion,$consulta);
+
+3. mysqli_num_rows -> cuenta la cantidad de filas que devuelve una query. 
+mysqli_num_rows($query)
+
+4. $query = mysqli_query($conexion,"SELECT * from usuarios where usuario='$usuario' and password='$password'") or die(mysqli_error($conexion));
+
+// queremos verificar si el usuario existe
+// la cantidad de filas debe ser mayor a cero
+$numeroUsuarios = mysqli_num_rows($query);
+//$numeroUsuarios va a almacenar un entero con la cantidad de filas que devolvio la consulta
+// $numeroUsuarios = 1 --> el usuarios ya esta registrado
+
+if($numeroUsuarios > 0) {
+	echo "Usuario existente";
+	header("Location:registro.php?error=si");
+}
