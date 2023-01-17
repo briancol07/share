@@ -1,0 +1,10 @@
+1. NodeJS
+2. npm install -g @angular/cli -> instala el programa de forma global
+3. ng new nombreCarpeta (empieza proyecto)
+4. src
+	app
+		app.component.ts (logica y funciones)
+		app.component.html (renderizar)
+
+
+		index.html (es la unica pagina que se muestra SPA)

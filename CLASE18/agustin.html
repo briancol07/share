@@ -1,0 +1,37 @@
+<?php
+session_start();
+require_once('funciones/conexion.php');
+$query = "select id_cat,categoria from identificacion";
+$consulta = mysqli_query($conexion,$query);
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form method="post" action="subir.php">
+	<input type="file" name="foto">
+	<select name="categoria">
+	<?php 
+	while($info = mysqli_fetch_array($consulta)) {
+
+	?>
+
+	<option value="<?php echo $info['id_categoria']; ?>">
+		<?php echo $info['categoria']; ?></option>
+	<?php
+
+	}
+	?>
+	</select>
+	<button type="submit">Enviar</button>
+</form>
+
+
+	<option value="europa">Europa</option>
+	<option value="la">Latino America </option>
+</body>
+</html>

@@ -1,0 +1,21 @@
+TAREA : 
+
+	Armar dos inputs que almacen las contraseñas
+
+	Mediante funciones JQuery comparar ambas y verificar si son iguales
+		Si son iguales y tienen mas de 10 caracteres: 
+			El bordel contenedor se ponga en color olive
+		Sin son distintas:
+
+			El borde del contenedor se ponga en tomato
+			Los inputs de las contraseñas tienen que limpiarse
+
+		Sin son iguales y tienen menos de 10 caracteres
+			El border contenedor : tomato
+			Los inputs de las contraseñas tienen que limpiarse
+
+PISTAS : 
+	BLUR
+	.length (devuelve la cantidad de caracteres!)
+	ojito para ver contraseña
+	$("#contra1").attr('type') = 'text'

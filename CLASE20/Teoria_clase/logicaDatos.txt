@@ -1,0 +1,43 @@
+https://nodejs.org/es/
+Node JS
+NPM -> Node Package manager (gestor de paquetes) que sin internet no funciona
+
+NodeJS o PHP -> Backend ()
+Angular -> Frontend 
+
+
+mipaginaweb.com.ar/home
+mipaginaweb.com.ar/login
+
+
+MVC (MODELO VISTA CONTROLADOR)
+Modelo (base de datos),
+Vistas (todo lo visible (frontend))
+Controlador (backend (variables,funciones, etc))
+
+// Command Line interfaz
+
+// APACHE SERVIDOR WEB : 80
+// ANGULAR CLI -> Levanta un web server (apache no lo utilizaremos)
+
+Ubuntu + PHP + NodeJS + Angular, react (HTML+CSS)+ Ionic 3
+API 
+Ionic3 -> IoS , Android (MAPA)
+
+API ()
+
+Token 
+
+Desde nuestra APP -> Token -> Spotify
+Respuesta             <- Spotify
+
+
+
+Package.json -> configuracion (le dice a angular que modulos o que dependencias va a requerir la app)
+
+e2e -> (testing end to end)
+node_modules (librerias para que angular funcione)
+gitignore
+src -> app
+        index.HTML
+

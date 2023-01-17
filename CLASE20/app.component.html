@@ -1,0 +1,54 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-12">
+
+      <h3>Bienvenido : {{nombre}}</h3>
+      <h4>{{edad}}</h4>
+      <h4>{{mail}}</h4>
+
+    </div>
+    <div class="col-12">
+      <h3>{{esMayor()}}</h3>
+    </div>
+    <div class="row">
+    <!-- DOM -> Disparar eventos -->
+    <button (click) = "contarNumero()" type="button">Haceme click</button>
+    <span class="badge badge-pill badge-primary">{{numero}}</span>
+  </div>
+  </div>
+  <br>
+  <div class="row">
+
+      <table border="1">
+
+        <tr>
+          <td>Lenguajes</td>
+        </tr>
+        <!-- condicionales y ciclos se agregan A LA ETIQUETA -->
+        <!-- for,while, foreach, each -->
+        <tr *ngFor="let lenguaje of lenguajes">
+         <td> {{lenguaje}}</td>
+         <!-- para cada posicion de mi array lenguajes me genera un lenguaje disinto -->
+       
+        </tr>
+      </table>
+
+      <p *ngIf="edad2 > 18; else nocumple">
+        La persona es mayor de edad         
+      </p>
+
+  </div>
+
+</div>
+
+
+<router-outlet></router-outlet>
+<!-- renderizar componentes dentro de la componente ppal app.component -->
+
+<ng-template #nocumple>
+  <p>La persona no es mayor!!!! y esto se llama por un ng-template|</p>
+
+</ng-template>

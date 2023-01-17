@@ -1,0 +1,23 @@
+
+
+De un postulante a un empleo, que realizó un test de capacitación, se obtuvo la siguiente información: nombre del postulante, cantidad total de preguntas que se le realizaron y cantidad de preguntas que contestó correctamente. Se pide confeccionar un programa que lea los datos del postulante e informe el nivel del mismo según el porcentaje de respuestas correctas que ha obtenido, y sabiendo que:
+Nivel superior:	Porcentaje>=90%.
+Nivel medio:	Porcentaje>=75% y <90%.
+Nivel regular:	Porcentaje>=50% y <75%.
+Fuera de nivel:	Porcentaje<50%.
+
+
+Ejercicios for:
+
+Confeccionar un programa que permita ingresar un valor del 1 al 10 y nos muestre la tabla de multiplicar del mismo (los primeros 12 términos)
+Ejemplo: Si ingreso 3 deberá aparecer en pantalla los valores 3, 6, 9, hasta el 36.
+
+
+TAREA FUNCIONES
+
+Elaborar una función a la cual le enviemos tres enteros y muestre el menor.
+
+TAREA DOM:
+Armar dos inputs y 4 botones : +,-, * , /. Mostrar el resultado de esas operaciones en un tercer input. Tener en cuenta que puede : 
+
+	document.getElementById('resultado').value = resultado; 
